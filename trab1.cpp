@@ -68,15 +68,20 @@ soma40termosparaseno += (pow(-1, i) * pow(radianos, 2 * i + 1)) / fatorial(2 * i
 
 }
 
-valorabsoluto3termoscosseno = abs(soma3termosparacosseno - cos(radianos));
-valorabsoluto3termosseno =  abs(soma3termosparaseno - sin(radianos));
-valorabsoluto40termoscosseno =  abs(soma40termosparacosseno - cos(radianos));
-valorabsoluto40termoscosseno = abs(soma40termosparaseno - sin(radianos));
+//Imprimindo valores.
 
 cout << "=================================================================================" << endl;
 cout << "=================================================================================" << endl << endl;
 cout << "O cosseno de " << graus << " graus para 40 termos eh: " << soma40termosparacosseno << endl;
 cout << "O seno de " << graus << " graus para 40 termos eh: " << soma40termosparaseno << endl << endl;
+
+//Cálculo dos erros absolutos.
+//Função abs() -> calcula o módulo do resultado da operação matemática.
+
+valorabsoluto3termoscosseno = abs(soma3termosparacosseno - cos(radianos));
+valorabsoluto3termosseno =  abs(soma3termosparaseno - sin(radianos));
+valorabsoluto40termoscosseno =  abs(soma40termosparacosseno - cos(radianos));
+valorabsoluto40termoscosseno = abs(soma40termosparaseno - sin(radianos));
 
 cout << "=================================================================================" << endl;
 cout << "=================================================================================" << endl << endl;
