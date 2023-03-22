@@ -101,11 +101,11 @@ cout << "Valor Absoluto entre o seno de 40 termos para a funcao padrao eh: " << 
 cout << "=================================================================================" << endl;
 cout << "=================================================================================" << endl << endl;
 cout << "Calculando o valor do erro em porcentagem para 3 termos" << endl << endl;
-cout << "A porcentagem de erro para o cosseno para 3 termos eh: " << valorabsoluto3termoscosseno * 100 / cos(radianos) << "%" << endl;
-cout << "A porcentagem de erro para o seno para 3 termos eh: " << valorabsoluto3termosseno * 100 / sin(radianos) << "%" << endl << endl;
+cout << "A porcentagem de erro do cosseno para 3 termos eh: " << valorabsoluto3termoscosseno * 100 / cos(radianos) << "%" << endl;
+cout << "A porcentagem de erro do seno para 3 termos eh: " << valorabsoluto3termosseno * 100 / sin(radianos) << "%" << endl << endl;
 cout << "Calculando o valor do erro em porcentagem para 40 termos" << endl << endl;
-cout << "A porcentagem de erro para o cosseno para 40 termos eh: " << valorabsoluto40termoscosseno * 100 / cos(radianos) << "%" << endl;
-cout << "A porcentagem de erro para o seno para 40 termos eh: " << valorabsoluto40termosseno * 100 / sin(radianos) << "%" << endl << endl << endl;
+cout << "A porcentagem de erro  do cosseno para 40 termos eh: " << valorabsoluto40termoscosseno * 100 / cos(radianos) << "%" << endl;
+cout << "A porcentagem de erro do seno de 40 termos eh: " << valorabsoluto40termosseno * 100 / sin(radianos) << "%" << endl << endl << endl;
 
 return 0;
 
