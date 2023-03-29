@@ -41,7 +41,6 @@ for (int i = 0; i < 3; i++){
 soma3termosparacosseno += (pow(-1, i) * pow(radianos, 2 * i)) / fatorial(2 * i);
 
 }
-
 for (int i = 0; i < 3; i++){
 
 soma3termosparaseno += (pow(-1, i) * pow(radianos, 2 * i + 1)) / fatorial(2 * i + 1);
@@ -101,11 +100,11 @@ cout << "Valor Absoluto entre o seno de 40 termos para a funcao padrao eh: " << 
 cout << "=================================================================================" << endl;
 cout << "=================================================================================" << endl << endl;
 cout << "Calculando o valor do erro em porcentagem para 3 termos" << endl << endl;
-cout << "A porcentagem de erro do cosseno para 3 termos eh: " << valorabsoluto3termoscosseno * 100 / cos(radianos) << "%" << endl;
-cout << "A porcentagem de erro do seno para 3 termos eh: " << valorabsoluto3termosseno * 100 / sin(radianos) << "%" << endl << endl;
+cout << "A porcentagem de erro do cosseno para 3 termos eh: " << valorabsoluto3termoscosseno * 100 << "%" << endl;
+cout << "A porcentagem de erro do seno para 3 termos eh: " << valorabsoluto3termosseno * 100  << "%" << endl << endl;
 cout << "Calculando o valor do erro em porcentagem para 40 termos" << endl << endl;
-cout << "A porcentagem de erro  do cosseno para 40 termos eh: " << valorabsoluto40termoscosseno * 100 / cos(radianos) << "%" << endl;
-cout << "A porcentagem de erro do seno de 40 termos eh: " << valorabsoluto40termosseno * 100 / sin(radianos) << "%" << endl << endl << endl;
+cout << "A porcentagem de erro  do cosseno para 40 termos eh: " << valorabsoluto40termoscosseno * 100 << "%" << endl;
+cout << "A porcentagem de erro do seno de 40 termos eh: " << valorabsoluto40termosseno * 100 << "%" << endl << endl << endl;
 
 return 0;
 
