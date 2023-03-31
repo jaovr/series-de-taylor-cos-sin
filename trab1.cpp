@@ -1,8 +1,10 @@
+//Nome: João Victor Rocha. RA: 2177268
+
 #include <iostream>
 #include <cmath>
 using namespace std;
 
-//função para calcular as operações de fatorial dentro da série de taylor para seno e cosseno.
+//função para calcular as operações de fatorial dentro da equação para seno e cosseno.
 
 long double fatorial(int n) {
     long double multiplicaçãodetermos = 1;
@@ -32,7 +34,7 @@ cout << endl;
 
 radianos = (graus * 3.14159265358979323846) / 180.0;
 
-// Loop para somar o valor da substituição de cada termo dentro da série de taylor até atingir o limite de i = 2 (para 3 termos).
+// Loop para somar o valor da substituição de cada termo dentro da equação até atingir o limite de i = 2 (para 3 termos).
 // Função padrão da biblioteca <cmath> => pow(): Realiza a operação de potenciação entre uma base e um expoente.
 // Função fatorial(): Calcula o fatorial da expressão dentro dos parenteses.
 
