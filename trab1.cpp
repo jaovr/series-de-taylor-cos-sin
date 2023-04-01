@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <cmath>
+#include <iomanip>
 using namespace std;
 
 //função para calcular as operações de fatorial dentro da equação para seno e cosseno.
@@ -17,6 +18,10 @@ long double fatorial(int n) {
 
 
 int main(){
+
+//set de precisão das casas decimais.
+
+cout << fixed << setprecision(6);
 
 // declaração de váriaveis e seus respectivos tipos.
 
